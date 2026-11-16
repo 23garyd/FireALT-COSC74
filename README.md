@@ -33,6 +33,6 @@ Then run all cells (Kernel → Restart & Run All). Figures are saved to `figures
 
 Tested with Python 3.13, numpy 2.4.6, pandas 2.2.3, scikit-learn 1.6.1, matplotlib 3.10.0. The notebook also runs in Google Colab: upload it, then run all cells, and the data will download automatically.
 
-## Authors
+## Author
 
-Gary Ding (add teammates here)
+Gary Ding
