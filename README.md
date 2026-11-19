@@ -2,7 +2,7 @@
 
 Course project for COSC 74 (Machine Learning), Dartmouth College, Fall 2026.
 
-We use the FireALT dataset (active layer thickness measurements in burned and unburned Arctic/boreal sites) to predict thaw depth, and we test how well models generalize to new sites, how much random splits overestimate performance, and which features the models rely on.
+I used the FireALT dataset (active layer thickness measurements in burned and unburned Arctic/boreal sites) to predict thaw depth, and I test how well models generalize to new sites, how much random splits overestimate performance, and which features the models rely on.
 
 ## Repository contents
 
@@ -10,7 +10,6 @@ We use the FireALT dataset (active layer thickness measurements in burned and un
 |---|---|
 | `FireALT_final.ipynb` | All code: data cleaning, models, cross-validation experiments, figures |
 | `FireAltEstimatedRawData.csv` | FireALT dataset (estimated raw data), used as input |
-| `figures/` | Figures produced by the notebook (also regenerated on each run) |
 | `requirements.txt` | Python package versions used |
 
 ## Data
@@ -31,7 +30,7 @@ jupyter notebook FireALT_final.ipynb
 
 Then run all cells (Kernel → Restart & Run All). Figures are saved to `figures/`. Random seeds are fixed (`SEED = 74`), so results should match the report.
 
-Tested with Python 3.13, numpy 2.4.6, pandas 2.2.3, scikit-learn 1.6.1, matplotlib 3.10.0. The notebook also runs in Google Colab: upload it, then run all cells, and the data will download automatically.
+Tested with Python 3.13, numpy 2.4.6, pandas 2.2.3, scikit-learn 1.6.1, matplotlib 3.10.0. The notebook also runs in Google Colab.
 
 ## Author
 
